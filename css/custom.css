@@ -1,0 +1,344 @@
+body{
+  background: #e4e7ea;
+  overflow-x: hidden;
+  font-family: 'proxima_novaregular';
+}
+header{
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+header .navbar-brand{
+  height: auto;
+  padding: 10px 15px;
+}
+.side-filter{
+  background: #ddd;
+  padding-top: 20px;
+  width: 20%;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  z-index: 3;
+}
+.global{
+  padding-left: 20%;
+  padding-top: 120px;
+}
+.sub-header{
+  left: 20%;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+  z-index: 1;
+}
+label{
+  font-size: 15px;
+  color: #4e4e4e;
+  font-family: 'proxima_novaregular';
+}
+.table > thead > tr > th{
+  border-bottom: 0;
+}
+.side-filter .form-control{
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #333;
+}
+.side-filter .form-control:focus{
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 1px solid #737981;
+}
+.side-filter .btn,
+.signin-content{
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.sub-header{
+  padding: 16px;
+  background: #f7f7f7;
+}
+.btn-green{
+  background: #2baebe;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #fff;
+}
+.main-container{
+  background: #fff;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.btn-default{
+  background: #e4e7ea;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  color: #636e7b;
+  font-size: 14px;
+}
+.btn-default:hover,
+.btn-default:focus{
+  background: #fff;
+}
+.item-wrap{
+
+}
+.item,
+.notes{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin: 0 0 12px;
+}
+.item-header{
+  background: #ddd;
+  border-bottom: 1px solid #ccc;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+}
+.item-header input{
+  display: none;
+}
+.item-header input + label{
+  background: url("../img/unchk.png") no-repeat 0 center;
+  padding-left: 18px;
+  margin: 0;
+  font: 14px/20px 'proxima_novabold';
+  color: #313131;
+  text-transform: capitalize;
+}
+.item-header label{
+  font: bold 18px/24px 'proxima_novabold';
+  color: #313131;
+  margin: 0;
+  text-transform: capitalize;
+}
+.item-header input:checked + label{
+  background: url("../img/chk.png") no-repeat 0 center;
+}
+.item-info{
+  padding: 12px 0 4px;
+  background: #F0F2F3;
+  border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+}
+.notes .comment-box{
+  padding: 0 16px;
+}
+.item label{
+  color: #313131;
+  font-size: 16px;
+  font-family: 'proxima_novaregular';
+  text-transform: none;
+  font-weight: 100;
+  margin: 0;
+}
+.single-info{
+  margin-bottom: 10px;
+}
+.single-info span{
+  color: #888;
+}
+.single-info span.break-span{
+  display: block;
+}
+.notes textarea{
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+}
+.user-comment{
+  border-top: 1px solid #ccc;
+  margin: 16px 0 0;
+  padding: 12px 16px;
+  position: relative;
+}
+.user_menu{
+  padding: 10px 15px;
+  position: relative;
+  z-index: 20;
+  margin-top: 10px;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus{
+  text-decoration: none;
+}
+.user_menu .dropdown-menu{
+  right: 10px !important;
+}
+.item-info span{
+  display: block;
+  text-align: right;
+}
+.skill-slide{
+  font-size: 12px;
+  color: green;
+}
+.skill-slide:hover,
+.skill-slide:focus{
+  text-decoration: none;
+  outline: none;
+}
+.labeling span{
+  text-align: right;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.skills-wrap{
+  height: 0;
+  opacity: 0;
+  /*-webkit-transition: all 500ms ease-out 0.25s;*/
+  /*-moz-transition: all 500ms ease-out 0.25s;*/
+  /*-o-transition: all 500ms ease-out 0.25s;*/
+  /*transition: all 500ms ease-out 0.25s;*/
+}
+.skills-wrap.toggle{
+  height: auto;
+  opacity: 1;
+  /*-webkit-transition: all 500ms ease-out 0.25s;*/
+  /*-moz-transition: all 500ms ease-out 0.25s;*/
+  /*-o-transition: all 500ms ease-out 0.25s;*/
+  /*transition: all 500ms ease-out 0.25s;*/
+
+}
+.skills-wrap table{
+  font-size: 12px;
+  display: none;
+}
+.skills-wrap.toggle table{
+  display: table;
+}
+
+
+
+
+
+
+/*tiny scrollbar*/
+.viewport{
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+}
+.overview{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.scrollbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+}
+.track{
+  position: relative;
+  width: 5px;
+}
+.thumb{
+  background: url("../images/bg-scrollbar-thumb-y.png") no-repeat scroll 50% 100% transparent;
+  cursor: pointer;
+  height: 20px;
+  left: -5px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+
+
+
+
+/*sign in form*/
+.signin-form{
+  width: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -180px 0 0 -155px;
+}
+.signin-header{
+  text-align: center;
+}
+.signin-content{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.signin-content{
+  background: #e9ecee;
+  margin: 20px 0 0;
+  padding: 10px 28px;
+  box-shadow: 1px 2px 2px #ccc;
+  -moz-box-shadow: 1px 2px 2px #ccc;
+  -webkit-box-shadow: 1px 2px 2px #ccc;
+}
+.side-filter .btn,
+.signin-content .btn{
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  /*font-family: 'proxima_novabold';*/
+  font-size: 15px;
+}
+.signin-form .form-control{
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.no-margin{
+  margin: 0 !important;
+}
+.signin-form h3,
+.signin-form p,
+.signin-form a{
+  color: #636e7b;
+}
+.signin-form i{
+  color: #CCCCCC;
+  display: block !important;
+  font-size: 16px;
+  height: 16px;
+  margin: 9px 2px 4px 10px;
+  position: absolute !important;
+  text-align: center;
+  width: 16px;
+  z-index: 1;
+  right: 5px;
+}
+.signin-form .form-group{
+  position: relative;
+}
+
